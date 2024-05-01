@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en" dir="ltr">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>BANA HOSPITAL</title>
+
+
+</head>
+
+<body>
+
+  {% include "hospital/navbar.html" %}
+  <br><br>
+
+  <center>
+      <br><br><br>
+    <h3 class='alert '>Send Us Your Valuable Feedback !</h3>
+      <p>
+    <a href="https://www.facebook.com/bana.hospital?mibextid=kFxxJD" class="fa fa-facebook"></a>
+          
+    <a href="https://vm.tiktok.com/ZMMgAU7Aq/"  class="img src=static/images/o.png" 
+          
+           <div class="wow fadeInLeft" data-wow-delay="0.2s">
+               <img src="static/images/po.png" class="img-responsive" alt="" />  
+           </div> </a>
+    <a href="https://et.linkedin.com/company/%E1%88%86%E1%88%B5%E1%8D%92%E1%89%B3%E1%88%8D-%E1%89%A3%E1%8A%93-bana-hospital" class="fa fa-linkedin"></a>
+          <a href="https://t.me/BanaHospital" class="fa fa-telegram"></a>
+          <a href="https://youtube.com/@BanaHospital?si=Fb0DDpFviono4SqQ" class="fa fa-youtube"></a>
+      <a href="" class="fa fa-whatsapp"></a>
+          
+  </p>
+
+  <br><br><br><br><br><br>
+  
+         
+    <section id="service" class="home-section nopadding paddingtop-60" style="background: -webkit-linear-gradient(left,#fff, rgba(230,230,243,0.89));color: #040404" style="height: 80%;" >
+  <div class="container">
+
+        <div class="row">
+          <div class="col-sm-6 col-md-6">
+              <div class="wow fadeInRight" data-wow-delay="0.1s">
+              <div class="service-box">
+               
+                <div class="service-desc">
+                  <h5 class="h-light"> <span class="fa fa-calendar fa-3x" style="color:#0062cc"></span>Monday- Sunday 24/7</h5>
+                  <p> </p>
+                </div>
+              </div>
+            </div>
+          
+            <div class="wow fadeInRight" data-wow-delay="0.2s">
+              <div class="service-box">
+               
+                <div class="service-desc">
+                  <h5 class="h-light"><span class="fa fa-phone-square" style="color:#0062cc"></span>0342403377</h5>
+                  <p> </p>
+                </div>
+              </div>
+            </div>
+               <div class="wow fadeInRight" data-wow-delay="0.3s">
+              <div class="service-box">
+                <div class="service-desc">
+                  <h5 class="h-light">  <span class="fa fa-mobile-phone" style="color:#0062cc"></span> 0978565656</h5>
+                  <p> </p>
+                </div>
+              </div>
+            </div>
+          
+           
+          </div>
+          <div class="col-sm-6 col-md-6">
+
+            <div class="wow fadeInRight" data-wow-delay="0.1s">
+              <div class="service-box">
+                
+                <div class="service-desc">
+                  <h5 class="h-light"> <span class="fa fa-envelope" style="color:#0062cc"></span> banahospital8@gmail.com </h5>
+                  <p> </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="wow fadeInRight" data-wow-delay="0.2s">
+              <div class="service-box">
+                
+                <div class="service-desc">
+                  <h5 class="h-light"><span class="fa fa-location-arrow" style="color:#0062cc"></span> Mekelle,Adhawsi traffic light on<br> the way to Desta Hotel </h5>
+                  <p> </p>
+                </div>
+              </div>
+            </div>
+              <div class="wow fadeInRight" data-wow-delay="0.3s">
+              <div class="service-box">
+               
+                <div class="service-desc">
+                  <h5 class="h-light">  <span class="fa fa-user-md" style="color:#0062cc"></span> Healing Hands, Caring Hearts! </h5>
+                  <p> </p>
+                </div>
+              </div>
+            </div>
+            
+
+          </div>
+    
+      
+      
+      
+      
+      
+    <form method="POST">
+      <!-- Very Important csrf Token -->
+      {% csrf_token %}
+      <div class="form-group">
+        <p>
+        <h3>{{ form.as_p }}</h3>
+        </p>
+        <br>
+         
+      </div>
+    </form>
+  </center>
+  
+
+
+
+
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+  <style>
+    /*---------------------------------------
+   Social section
+-----------------------------------------*/
+    footer {
+      padding: 0px 0px 0px 0px;
+      background-color: #fff;
+      margin: 0px;
+    }
+
+    .fa {
+      padding: 20px;
+      font-size: 23px;
+      width: 60px;
+      text-align: center;
+      text-decoration: none;
+      margin: 5px 2px;
+      border-radius: 50%;
+    }
+
+    .fa:hover {
+      opacity: 0.5;
+      text-decoration: none;
+    }
+
+    
+  
+  </style>
+</head>
+
+<footer>
+
+    
+    </div>
+  </div>
+</footer>
+
+
+
+
+
+</body>
+
+
+</html>
